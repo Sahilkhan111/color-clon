@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+}
+header h3{
+    cursor: pointer;
+}
+header a{
+      text-decoration: none;
+}
+.main2{
+    flex-wrap: wrap;
+    display: flex;
+
+    height: 500px;
+    padding-left: 20px;
+
+}
+.sub2{
+    background-color: #f6e58d;
+    width: 20%;
+}
+.in1{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.in1 button{
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    opacity: 50%;
+}
+.in2{
+    padding-left: 70%;
+    color: white;
+}
+
+.sub3{
+    background-color: #ffbe76;
+    width: 20%;
+}
+.sub4{
+    background-color: #ff7979;
+    width: 20%;
+}
+.sub5{
+    background-color: #badc58;
+    width: 20%;
+}
+.sub6{
+    background-color: #dff9fb;
+    width: 20%;
+}
+.sub7{
+    background-color:#f9ca24;
+    width: 20%;
+}
+.sub8{
+    background-color: #f0932b;
+    width: 20%;
+}
+.sub9{
+    background-color: #eb4d4b;
+    width: 20%;
+}
+.sub10{
+    background-color: #6ab04c;
+    width: 20%;
+}
+.sub11{
+    background-color: #c7ecee;
+    width: 20%;
+}
+.sub12{
+    background-color: #7ed6df;
+    width: 20%;
+}
+.sub13{
+    background-color: #e056fd;
+    width: 20%;
+}
+.sub14{
+    background-color: #686de0;
+    width: 20%;
+}
+.sub15{
+    background-color: #30336b;
+    width: 20%;
+}
+.sub16{
+    background-color: #95afc0;
+    width: 20%;
+}
+.sub17{
+    background-color: #22a6b3;
+    width: 20%;
+}
+.sub18{
+    background-color: #be2edd;
+    width: 20%;
+}
+.sub19{
+    background-color: #be2edd;
+    width: 20%;
+}
+.sub20{
+    background-color: #130f40;
+    width: 20%;
+}
+.sub21{
+    background-color: #535c68;
+    width: 20%;
+}
+
+@media (max-width: 1200px) {
+    .main2 {
+        padding: 10px;
+    }
+
+    .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8, .sub9, .sub10, .sub11, .sub12, .sub13, .sub14, .sub15, .sub16, .sub17, .sub18, .sub19, .sub20, .sub21 {
+        flex: 1 1 30%;
+    }
+
+    .in1 button, .in2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8, .sub9, .sub10, .sub11, .sub12, .sub13, .sub14, .sub15, .sub16, .sub17, .sub18, .sub19, .sub20, .sub21 {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8, .sub9, .sub10, .sub11, .sub12, .sub13, .sub14, .sub15, .sub16, .sub17, .sub18, .sub19, .sub20, .sub21 {
+        flex: 1 1 100%;
+    }
+
+    .in1 button {
+        padding: 8px 16px;
+    }
+
+    .in2 {
+        font-size: 14px;
+    }
+}
